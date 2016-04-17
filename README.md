@@ -9,25 +9,29 @@ This project will just create, read, update and delete from account table. We ar
 GET http://localhost:8080/account/findAll
 
 <b>To retrieve particular account</b><br>
-GET http://localhost:8080/account/find/{accountId}
+<pre>GET http://localhost:8080/account/find/{accountId}</pre>
 
 <b>To create an account </b><br>
-POST http://localhost:8080/account/create
+<pre>POST http://localhost:8080/account/create</pre>
+<pre>
 {
 "name": "TEST Account",
 "type": 1,
 "contact": "account address"
 }
-
+</pre>
 
 <b>To update an account </b><br>
 POST http://localhost:8080/account/update
+<pre>
 {
 "name": "TEST Account",
 "type": 1,
 "contact": "account address"
 }
+</pre>
+
 
 <b>To delete an account </b><br>
-DELETE http://localhost:8080/account/delete/{accountId}
+<pre>DELETE http://localhost:8080/account/delete/{accountId}</pre>
 
