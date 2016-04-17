@@ -7,3 +7,10 @@ mvnw
 mvnw.cmd
 target/
 
+*.class
+
+
+# Package Files #
+*.jar
+*.war
+*.ear
